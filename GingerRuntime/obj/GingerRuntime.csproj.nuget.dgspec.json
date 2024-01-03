@@ -1,0 +1,776 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\manaska\\Documents\\Ginger-C\\Ginger\\GingerRuntime\\GingerRuntime.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\manaska\\Documents\\Ginger-C\\Ginger\\GingerAutoPilot\\GingerAutoPilot.csproj": {
+      "version": "4.1.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\manaska\\Documents\\Ginger-C\\Ginger\\GingerAutoPilot\\GingerAutoPilot.csproj",
+        "projectName": "GingerAutoPilot",
+        "projectPath": "C:\\Users\\manaska\\Documents\\Ginger-C\\Ginger\\GingerAutoPilot\\GingerAutoPilot.csproj",
+        "packagesPath": "C:\\Users\\manaska\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\manaska\\Documents\\Ginger-C\\Ginger\\GingerAutoPilot\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\manaska\\Documents\\Ginger-C\\Ginger\\.nuget\\NuGet.Config",
+          "C:\\Users\\manaska\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\manaska\\Documents\\Ginger-C\\Ginger\\GingerCoreCommon\\GingerCoreCommon.csproj": {
+                "projectPath": "C:\\Users\\manaska\\Documents\\Ginger-C\\Ginger\\GingerCoreCommon\\GingerCoreCommon.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "NJsonSchema": {
+              "target": "Package",
+              "version": "[9.13.10, )"
+            },
+            "NSwag.Core.Yaml": {
+              "target": "Package",
+              "version": "[12.0.9, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "System.Resources.Extensions": {
+              "target": "Package",
+              "version": "[4.7.1, )"
+            },
+            "YamlDotNet": {
+              "target": "Package",
+              "version": "[5.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\manaska\\Documents\\Ginger-C\\Ginger\\GingerCoreCommon\\GingerCoreCommon.csproj": {
+      "version": "24.1.1.1",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\manaska\\Documents\\Ginger-C\\Ginger\\GingerCoreCommon\\GingerCoreCommon.csproj",
+        "projectName": "Ginger.Core.Common",
+        "projectPath": "C:\\Users\\manaska\\Documents\\Ginger-C\\Ginger\\GingerCoreCommon\\GingerCoreCommon.csproj",
+        "packagesPath": "C:\\Users\\manaska\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\manaska\\Documents\\Ginger-C\\Ginger\\GingerCoreCommon\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\manaska\\Documents\\Ginger-C\\Ginger\\.nuget\\NuGet.Config",
+          "C:\\Users\\manaska\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Ginger.External": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "LiteDB": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Microsoft.CodeAnalysis": {
+              "target": "Package",
+              "version": "[3.7.0, )"
+            },
+            "Microsoft.CodeAnalysis.CSharp": {
+              "target": "Package",
+              "version": "[3.7.0, )"
+            },
+            "Microsoft.CodeAnalysis.Common": {
+              "target": "Package",
+              "version": "[3.7.0, )"
+            },
+            "NJsonSchema": {
+              "target": "Package",
+              "version": "[9.13.10, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "System.Resources.Extensions": {
+              "target": "Package",
+              "version": "[4.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\manaska\\Documents\\Ginger-C\\Ginger\\GingerCoreNET\\GingerCoreNET.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\manaska\\Documents\\Ginger-C\\Ginger\\GingerCoreNET\\GingerCoreNET.csproj",
+        "projectName": "GingerCoreNET",
+        "projectPath": "C:\\Users\\manaska\\Documents\\Ginger-C\\Ginger\\GingerCoreNET\\GingerCoreNET.csproj",
+        "packagesPath": "C:\\Users\\manaska\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\manaska\\Documents\\Ginger-C\\Ginger\\GingerCoreNET\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\manaska\\Documents\\Ginger-C\\Ginger\\.nuget\\NuGet.Config",
+          "C:\\Users\\manaska\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\manaska\\Documents\\Ginger-C\\Ginger\\GingerAutoPilot\\GingerAutoPilot.csproj": {
+                "projectPath": "C:\\Users\\manaska\\Documents\\Ginger-C\\Ginger\\GingerAutoPilot\\GingerAutoPilot.csproj"
+              },
+              "C:\\Users\\manaska\\Documents\\Ginger-C\\Ginger\\GingerCoreCommon\\GingerCoreCommon.csproj": {
+                "projectPath": "C:\\Users\\manaska\\Documents\\Ginger-C\\Ginger\\GingerCoreCommon\\GingerCoreCommon.csproj"
+              },
+              "C:\\Users\\manaska\\Documents\\Ginger-C\\Ginger\\GingerPluginCore\\GingerPluginCore.csproj": {
+                "projectPath": "C:\\Users\\manaska\\Documents\\Ginger-C\\Ginger\\GingerPluginCore\\GingerPluginCore.csproj"
+              },
+              "C:\\Users\\manaska\\Documents\\Ginger-C\\Ginger\\GingerUtils\\GingerUtils.csproj": {
+                "projectPath": "C:\\Users\\manaska\\Documents\\Ginger-C\\Ginger\\GingerUtils\\GingerUtils.csproj"
+              },
+              "C:\\Users\\manaska\\Documents\\Ginger-C\\Ginger\\VisualRegressionTracker\\VisualRegressionTracker.csproj": {
+                "projectPath": "C:\\Users\\manaska\\Documents\\Ginger-C\\Ginger\\VisualRegressionTracker\\VisualRegressionTracker.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Appium.WebDriver": {
+              "target": "Package",
+              "version": "[5.0.0-beta01, )"
+            },
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Azure.Identity": {
+              "target": "Package",
+              "version": "[1.8.1, )"
+            },
+            "CassandraCSharpDriver": {
+              "target": "Package",
+              "version": "[3.10.0, )"
+            },
+            "CommandLineParser": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "CouchbaseNetClient": {
+              "target": "Package",
+              "version": "[2.7.11, )"
+            },
+            "DocumentFormat.OpenXml": {
+              "target": "Package",
+              "version": "[2.9.1, )"
+            },
+            "EPPlus": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "EnterpriseLibrary.TransientFaultHandling": {
+              "target": "Package",
+              "version": "[6.0.1304, )"
+            },
+            "Eyes.Images": {
+              "target": "Package",
+              "version": "[2.33.0, )"
+            },
+            "Eyes.Selenium4": {
+              "target": "Package",
+              "version": "[2.59.0, )"
+            },
+            "Ginger.AccountReport.Contracts": {
+              "target": "Package",
+              "version": "[4.2.2, )"
+            },
+            "Ginger.ExecuterService.Contracts": {
+              "target": "Package",
+              "version": "[23.5.1, )"
+            },
+            "HBaseNet": {
+              "target": "Package",
+              "version": "[0.1.0, )"
+            },
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.21, )"
+            },
+            "InputSimulatorStandard": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "LibGit2Sharp.NativeBinaries": {
+              "target": "Package",
+              "version": "[2.0.278, )"
+            },
+            "LiteDB": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Magick.NET-Q16-AnyCPU": {
+              "target": "Package",
+              "version": "[7.22.0, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "MedallionShell": {
+              "target": "Package",
+              "version": "[1.6.2, )"
+            },
+            "Meziantou.Framework.Win32.CredentialManager": {
+              "target": "Package",
+              "version": "[1.4.2, )"
+            },
+            "Microsoft.Azure.Cosmos": {
+              "target": "Package",
+              "version": "[3.25.0, )"
+            },
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Microsoft.CodeAnalysis.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "Microsoft.CodeAnalysis.CSharp": {
+              "target": "Package",
+              "version": "[3.7.0, )"
+            },
+            "Microsoft.CodeAnalysis.CSharp.Scripting": {
+              "target": "Package",
+              "version": "[3.7.0, )"
+            },
+            "Microsoft.CodeAnalysis.Common": {
+              "target": "Package",
+              "version": "[3.7.0, )"
+            },
+            "Microsoft.CodeAnalysis.Scripting": {
+              "target": "Package",
+              "version": "[3.7.0, )"
+            },
+            "Microsoft.Graph": {
+              "target": "Package",
+              "version": "[4.51.0, )"
+            },
+            "Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.ServiceBus": {
+              "target": "Package",
+              "version": "[6.0.1304, )"
+            },
+            "Microsoft.Win32.Registry": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.19.1, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.16, )"
+            },
+            "NPOI": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            },
+            "NUglify": {
+              "target": "Package",
+              "version": "[1.9.7, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[4.0.7, )"
+            },
+            "Protractor": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[108.0.3, )"
+            },
+            "SSH.NET": {
+              "target": "Package",
+              "version": "[2020.0.1, )"
+            },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[4.13.1, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.13.1, )"
+            },
+            "Selenium.WebDriver.Extensions": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "SharpAdbClient": {
+              "target": "Package",
+              "version": "[2.3.23, )"
+            },
+            "System.Data.DataSetExtensions": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Data.OleDb": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "System.Reflection": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Reflection.DispatchProxy": {
+              "target": "Package",
+              "version": "[4.7.1, )"
+            },
+            "System.Resources.Extensions": {
+              "target": "Package",
+              "version": "[4.7.1, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.12, )"
+            },
+            "protobuf-net": {
+              "target": "Package",
+              "version": "[3.2.26, )"
+            },
+            "protobuf-net.Core": {
+              "target": "Package",
+              "version": "[3.2.26, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\manaska\\Documents\\Ginger-C\\Ginger\\GingerPluginCore\\GingerPluginCore.csproj": {
+      "version": "4.5.2",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\manaska\\Documents\\Ginger-C\\Ginger\\GingerPluginCore\\GingerPluginCore.csproj",
+        "projectName": "Ginger.Plugin.Core",
+        "projectPath": "C:\\Users\\manaska\\Documents\\Ginger-C\\Ginger\\GingerPluginCore\\GingerPluginCore.csproj",
+        "packagesPath": "C:\\Users\\manaska\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\manaska\\Documents\\Ginger-C\\Ginger\\GingerPluginCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\manaska\\Documents\\Ginger-C\\Ginger\\.nuget\\NuGet.Config",
+          "C:\\Users\\manaska\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\manaska\\Documents\\Ginger-C\\Ginger\\GingerUtils\\GingerUtils.csproj": {
+                "projectPath": "C:\\Users\\manaska\\Documents\\Ginger-C\\Ginger\\GingerUtils\\GingerUtils.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "System.Reflection.DispatchProxy": {
+              "target": "Package",
+              "version": "[4.7.1, )"
+            },
+            "System.Resources.Extensions": {
+              "target": "Package",
+              "version": "[4.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\manaska\\Documents\\Ginger-C\\Ginger\\GingerRuntime\\GingerRuntime.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\manaska\\Documents\\Ginger-C\\Ginger\\GingerRuntime\\GingerRuntime.csproj",
+        "projectName": "GingerRuntime",
+        "projectPath": "C:\\Users\\manaska\\Documents\\Ginger-C\\Ginger\\GingerRuntime\\GingerRuntime.csproj",
+        "packagesPath": "C:\\Users\\manaska\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\manaska\\Documents\\Ginger-C\\Ginger\\GingerRuntime\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\manaska\\Documents\\Ginger-C\\Ginger\\.nuget\\NuGet.Config",
+          "C:\\Users\\manaska\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\manaska\\Documents\\Ginger-C\\Ginger\\GingerCoreNET\\GingerCoreNET.csproj": {
+                "projectPath": "C:\\Users\\manaska\\Documents\\Ginger-C\\Ginger\\GingerCoreNET\\GingerCoreNET.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Ginger.ExecuterService.Contracts": {
+              "target": "Package",
+              "version": "[23.5.1, )"
+            },
+            "Oracle.ManagedDataAccess.Core": {
+              "target": "Package",
+              "version": "[3.21.100, )"
+            },
+            "System.Resources.Extensions": {
+              "target": "Package",
+              "version": "[4.7.1, )"
+            },
+            "System.Security.Permissions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "runtime.osx.10.10-x64.CoreCompat.System.Drawing": {
+              "target": "Package",
+              "version": "[5.8.64, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\manaska\\Documents\\Ginger-C\\Ginger\\GingerUtils\\GingerUtils.csproj": {
+      "version": "4.1.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\manaska\\Documents\\Ginger-C\\Ginger\\GingerUtils\\GingerUtils.csproj",
+        "projectName": "GingerUtils",
+        "projectPath": "C:\\Users\\manaska\\Documents\\Ginger-C\\Ginger\\GingerUtils\\GingerUtils.csproj",
+        "packagesPath": "C:\\Users\\manaska\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\manaska\\Documents\\Ginger-C\\Ginger\\GingerUtils\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\manaska\\Documents\\Ginger-C\\Ginger\\.nuget\\NuGet.Config",
+          "C:\\Users\\manaska\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "System.Resources.Extensions": {
+              "target": "Package",
+              "version": "[4.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\manaska\\Documents\\Ginger-C\\Ginger\\VisualRegressionTracker\\VisualRegressionTracker.csproj": {
+      "version": "4.8.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\manaska\\Documents\\Ginger-C\\Ginger\\VisualRegressionTracker\\VisualRegressionTracker.csproj",
+        "projectName": "VisualRegressionTracker",
+        "projectPath": "C:\\Users\\manaska\\Documents\\Ginger-C\\Ginger\\VisualRegressionTracker\\VisualRegressionTracker.csproj",
+        "packagesPath": "C:\\Users\\manaska\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\manaska\\Documents\\Ginger-C\\Ginger\\VisualRegressionTracker\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\manaska\\Documents\\Ginger-C\\Ginger\\.nuget\\NuGet.Config",
+          "C:\\Users\\manaska\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
